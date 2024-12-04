@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #800000; /* Deep maroon background for WPI */
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #00457C; /* Dark blue color for headings */
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #800000; /* Maroon color */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navbar a:hover {
+  color: #ddd;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+/* Course Card */
+.course-card {
+  background-color: #ffffff; /* White background for readability */
+  color: #333; /* Text color */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.course-card h3 {
+  color: #333; /* Headings in cards */
+}
+
+.course-card p {
+  color: #666; /* Paragraph text */
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-bar input,
+.search-bar select,
+.search-bar button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Ensure this line is complete */
+}
+
